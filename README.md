@@ -44,10 +44,10 @@ Before running this lab, the following must be installed or configured on the VM
 
 The .env file stores enviornment variables required by the Docker containers. It contains the following variables: 
 
--DB_ROOT_PASSWORD: Password for the root user
--DB_NAME: Database name
--DB_USER: Database username
--DB_PASSWORD: Database password
+- DB_ROOT_PASSWORD: Password for the root user
+- DB_NAME: Database name
+- DB_USER: Database username
+- DB_PASSWORD: Database password
 
 A teammate will need to create their own .env file before running the application, providing their own values and credentials.
 
