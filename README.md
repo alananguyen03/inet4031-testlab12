@@ -14,7 +14,7 @@ The application code and scaffolding are provided. Your job is to complete the D
 
 # Project Overview
 <!-- Briefly describe what this application does in your own words.
-     What problem does it solve? What does a user interact with? -->\
+     What problem does it solve? What does a user interact with? -->
      
 This application is a simple IT ticket dashboard that includes a description, status, and timestamp for each ticket. It allows users to view, create, and manage tickets through a web interface. The application helps users manage tickets more efficiently by storing all ticket information in one place. Users interact with a web page served by Apache, which forwards requests to Flask. MariaDB is then used to store the ticket information.
      
