@@ -56,8 +56,9 @@ A teammate will need to create their own .env file before running the applicatio
      Reference the check script and what a passing run looks like. -->
 
 To confirm that the stack is running correctly:
-1. Check the status of the containers and ensure they are healthy: docker compose ps
-2. Run the provided check script:
+1. Check the status of the containers and ensure they are healthy:
+- docker compose ps
+3. Run the provided check script:
 - chmod +x check-lab.sh
 - ./check-lab.sh
 
