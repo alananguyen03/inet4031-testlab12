@@ -34,10 +34,12 @@ Before running this lab, the following must be installed or configured on the VM
 
 1. git clone https://github.com/alananguyen03/inet4031-testlab12.git - clone the repository
 2. cd inet4031-testlab12 - navigate to the project directory
-3. docker compose up --build - build and start the stack
-4. docker compose ps - check container status
-5. chmod +x check-lab.sh - make the script executable
-6. ./check-lab.sh - run the check script
+3. cp .env.example .env - create .env file
+4. nano .env - open .env file and change placeholder values to your own
+5. docker compose up --build - build and start the stack
+6. docker compose ps - check container status
+7. chmod +x check-lab.sh - make the script executable
+8. ./check-lab.sh - run the check script
 
 # Configuration
 <!-- Explain the .env file: what it is, what variables it contains,
