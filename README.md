@@ -25,7 +25,8 @@ This application is a simple IT ticket dashboard that includes a description, st
 Before running this lab, the following must be installed or configured on the VM:
 - Docker
 - Docker Compose
-- Terminal access with sudo privileges 
+- Terminal access with sudo privileges
+- Git
 
 # Getting Started
 <!-- Explain how a new teammate would bring this stack up from a fresh clone.
